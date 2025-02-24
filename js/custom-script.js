@@ -69,30 +69,30 @@
 	    });
 	}
 	
-	//Main Slider / Banner Carousel
+	// Main Slider / Banner Carousel
 	if ($('.banner-carousel').length) {
 		$('.banner-carousel').owlCarousel({
-			loop:true,
-			animateOut: 'fadeOut',
-            animateIn: 'fadeIn',
-			margin:0,
-			nav:true,
-			smartSpeed: 500,
-			autoplay: 6000,
-			autoplayTimeout:7000,
-			navText: [ '<span class="icon flaticon-left-arrow-1"></span>', '<span class="icon flaticon-arrows-10"></span>' ],
-			responsive:{
-				0:{
-					items:1
+			loop: true,
+			margin: 0,
+			nav: true,
+			smartSpeed: 1000, // Adjust this value for smoother or faster transitions
+			autoplay: true, // Enable autoplay
+			autoplayTimeout: 7000, // Time between slides
+			autoplayHoverPause: true, // Pause on hover
+			rtl: false, // Enable right-to-left scrolling
+			navText: ['<span class="icon flaticon-left-arrow-1"></span>', '<span class="icon flaticon-arrows-10"></span>'],
+			responsive: {
+				0: {
+					items: 1
 				},
-				600:{
-					items:1
+				600: {
+					items: 1
 				},
-				800:{
-					items:1
+				800: {
+					items: 1
 				},
-				1024:{
-					items:1
+				1024: {
+					items: 1
 				}
 			}
 		});
