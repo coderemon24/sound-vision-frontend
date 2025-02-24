@@ -75,7 +75,7 @@
 			loop: true,
 			margin: 0,
 			nav: true,
-			smartSpeed: 1000, // Adjust this value for smoother or faster transitions
+			smartSpeed: 2000, // Adjust this value for smoother or faster transitions
 			autoplay: true, // Enable autoplay
 			autoplayTimeout: 7000, // Time between slides
 			autoplayHoverPause: true, // Pause on hover
@@ -165,8 +165,8 @@
 			margin:0,
 			nav:true,
 			smartSpeed: 700,
-			autoplay: 5000,
-			autoplayTimeout:5000,
+			autoplay: 2000,
+			autoplayTimeout:2000,
 			navText: [ '<span class="icon flaticon-left-arrow-1"></span>', '<span class="icon flaticon-arrows-10"></span>' ],
 			responsive:{
 				0:{
