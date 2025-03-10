@@ -550,11 +550,11 @@
 
   $(window).on("scroll", function () {
     headerStyle();
-    if ($(window).scrollTop() > 100) {
+    if ($(window).scrollTop() > 50) {
       // Adjust this value based on when you want the header to become fixed
-      $("body").addClass("fixed-header");
+      $(".main-header").addClass("fixed-header");
     } else {
-      $("body").removeClass("fixed-header");
+      $(".main-header").removeClass("fixed-header");
     }
   });
 
